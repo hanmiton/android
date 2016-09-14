@@ -216,7 +216,171 @@ system image
 	configuration of the software
 armavi 
 	is a procesador
-	
+
+POJO
+	plain old java object
+	quit the complex of java class
+	old
+		not use java framework
+		more simple posible
+	oriented object programaing
+	simple class abstract in object and this object transform on POJOs
+	POJO class without funcionality the most simple posible
+
+Android es MVC for default
+	Model
+		Java lengauje
+	Controller
+		Java lengauje
+	View
+		Interface in xml 
+		layout(all views on andoird call layouts)
+
+	Controller
+		all this instructors go define on the controlleres
+		of this form controller all elemnets of the view 
+	Model
+		Business model 
+		POJOs are the modle of the system
+		relational with DB
+
+Controller
+	call the model (push data in the model)
+	setContentView(R.layour.activiry_main)
+		controller this view
+	model
+		Alumno alumno = new Alumno();
 
 
+layout
+	not subfolders
+
+
+SnackBar
+	bar on bottom of the scrreen
+
+
+manipulate xml vs Graphic Editor
+	xml 
+		esquematizacion lenguaje
+
+views
+	is a object that you sue to draw something in the screen whitn th user interactive
+	is a object
+view group
+	each view group can more view group
+
+	Linear Layout
+		is view group
+		order the sons in only directino horizontal or vertical
+	Relative Layout
+		is a view group
+		sons position is relative 
+			view
+			parent
+	Not use
+		absoutle layout
+		table layoutr
+	More layouts
+		ListView
+			scroll
+		GridView
+			sutitute the table layout
+
+Android orientation 
+	verticarl
+	horizontal
+
+Properties
+	android:layout_width
+		width
+	android:layout_height
+		height
+	android:text
+		text of the view
+	android:id
+		id view
+	android:layout_below
+		position below
+	android:layout_centerInParent
+		center according to the parent
+	android:src 
+		src of image
+	@dimen 
+		usa dimesion
+	EditText
+		inputType
+Basics Widgets
+	TextView
+		Text tag is like a label
+	EditText
+		Permit diferent kind of text
+			email
+			numeric
+			password
+Button 
+	Porcion fo text or image or both that help us to stablisher comicacion with accinns when the user touch it
+	Image Button
+		android:src 
+			src of the image
+				drawable
+	Actions
+		onClick
+			asign a disponible method
+		setOnClickListener
+
+wrap_content
+	envolver->wrap
+		the space the elmento into 
+android:layoutgranvity="center_horizontal"
+android:hint
+	placeholder
+android:id="@+id/nombre_id"
+
+Toast
+	Is a menssage that it notificate retroalimentation
+
+How manipulate view of java code
+	//not need new becaus you create another view 
+	//user R for the references of the resources
+	EditText edtNombre = findViewById(R.id.nombre); //choise a elemento by id this return a view for this you need a cast
+	EditText edtNombre = (EditText) findViewById(R.id.nombre);
+	String nombre = edtNombre.getText().toString();
+
+android:onClick="enviar datos"
+
+public void enviarDAtos(View view){
+	EditText edtNombre = (EditText) findViewById(R.id.nombre);
+	String nombre = edtNOmbre.getTExt().toString();
+
+	Toast.makeText(getBaseContext(), "Felicidades tu nobmre es. " + nombre, Toast.LENGTH_LONG).show();
+
+Material Design 
+	Is a integral guide for the visual design, of movements and interaction in distins platforms and dispositives
+	new theme
+	new widgets
+	new libs for animations
+		transitions 
+		animations
+Material Design Theme
+	Dark
+	@android:style/Theme.Material.Light
+	@android:style/Theme.Material.Light.DarkActionBar
+
+Design lib
+	Theme.AppCompat
+		Compability of old versions
+	styles.xml
+		configurate the styles of the app
+	Three principal colors
+		colorPrimary
+			general elements all time on the app
+		colorPrimaryDark
+			general use on android lollypop
+
+Configurate Material Design 
+
+
+
+}	
 
