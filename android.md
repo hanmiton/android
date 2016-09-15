@@ -379,9 +379,100 @@ Design lib
 			general use on android lollypop
 
 Configurate Material Design 
-	
-
-
 
 }	
 
+res
+	values
+		Styles.xml
+			noActionBar //quit the action bar
+Select three colors for pallette or material design
+	500 primary colors avalible
+	500< primary dark colors
+	A letter acentuation color
+		colors.xml
+			you put the 3 colors of material design for you design 
+@ reference to tag
+/ name 
+
+
+materialpalette.com
+	you can select two colors and this generate all pallette for use in your proyect
+
+Widgets Material Design
+	Toolbar
+		new tag integrate
+	Textinputlayout
+	TextInputEditText
+		define a text type of password,email
+	Raised Button
+		new style for the button tag
+	Floating Action Button
+		new button reduce menus
+	CardView
+		best ux user expirence
+	RecyclerView
+		sustitue ListView
+
+Coordinator Layout
+	Is a parent layout
+
+Activity
+	Is a component of a app that it provided of a screen for the user interactive whit it
+
+	Archivo java
+		java class extends activity
+		java class take the layout and show in the screen
+		all activity should be declared on AndroidManifest.xml
+Application tag
+	icon who use the app
+	label name of application menu
+	theme style
+	activity tag
+		.LoginActivity
+			. is becaouse you nedd reference all package
+	intent-filter(one time no more)
+		define a place for screen
+	Action
+		dfine when open the app the first scrren (will login screen)
+
+Activity
+	is each screen of the app
+	lifecycle
+		Created
+			When the activity is created
+			receive
+				bundle: save the state of the previus activity
+				super// reference to parent classs
+
+		Started
+			render all elements of the acitvity
+
+		Resumed
+			when the ativity finished to rendered
+		Paused
+			Partially visible
+			when you call another activity
+		Stop
+			execute when i press the home boton and the activity will be stopped
+		Destroy
+			when we press the back buton 
+Coordinatro layout
+	namespace
+		all words like android tools you can acces to them 
+			this methop pertenice to activity
+		context
+			file whoh contoller this acti
+
+weigthSum
+	the weigth of the parent 1
+layout_weigth
+	the weigth of the sons 0.6
+
+Andorid Stdio
+	prefereces (the key)
+		plugins
+			androidDrawableImporter
+batchDrawable import(diferente densities of image)
+	hit (placeholder )
+		you need define all string on string files string.xml
