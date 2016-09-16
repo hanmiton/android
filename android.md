@@ -476,3 +476,27 @@ Andorid Stdio
 batchDrawable import(diferente densities of image)
 	hit (placeholder )
 		you need define all string on string files string.xml
+internazinatiion
+	string.xml
+		create different strings files for the different lenguajes
+fro antoher lengujajes
+	you need to create a new values-en folder
+		you can different views about you code 
+			projecr view 
+			development view
+alt+enter
+	create a strig or resources that you want on the app
+
+live 
+	stripe 
+		with sripe is more easy to open a account 
+button rise
+	button state
+		normal
+			colorButtonNormal
+you can creta syles for the elemnts fo the app
+
+sp mesure unit
+
+android:fillviewport : true
+	element use all space 
