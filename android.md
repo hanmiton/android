@@ -564,3 +564,220 @@ Selector
 		false
 		true
 Fragments
+	introduce for the tablets
+	FragmentA+FragemntB one view (tablets)
+	FragmentA|FragmentB separeted view(smartphone)
+	Fragment live on the Activity
+	Switch fragment into the activity
+
+Fragement Manager
+	support library
+	Transaccion
+		all actins you can realize in the fragment
+	Commits
+		if you did a transaccion is very impootant you do a commit 
+Fragment
+	Class
+	file xml
+	apper to a activity
+BottomBar
+	not exit
+	is a library
+
+alignParentBotton
+
+bb_inActiveTabColor
+	when a tab of the bottombar is inActive
+
+www.romannurik.github.io
+	generate of icons
+
+default tab
+setDefaultTab()
+
+Listener 
+	when you touch someone of the tags
+
+RecyclerView
+	not use listView
+	just loading the items who can watch on the screen
+Structure
+	RecyclerView
+		LayoutManager
+			List(LinearLaoyutManager)
+			Grid(GridLayoutManager)
+			Escalonable()
+	Adapter
+		Design patron
+		Class Adapter
+			class ViewHolder
+	Dataset
+		POJO
+RecyclerView
+	RecyclerView.ViewHolder //parent class
+
+	Adapter
+		Array list for recycle the views of the cards
+		Collections of objects
+
+LayoutInflater.from(parent.getContext()).infalte(resource,parent, false);
+show xml like a view 
+
+onBindViewHolder
+	recorrer the view 
+
+Picasso  android
+	context
+	image 
+	element
+		take image from internet
+
+permission 
+	private user resources you need permission you declared thiese on AndroidManifest.xml
+widget 
+	nestedScrollView
+		use when the element not overflow the screen 
+		use a layout
+
+layout_anchor
+	you put a element over another element
+
+CoordinatorLayout
+	Super FrameLayout
+	help to especify interaccins in the son views
+	flot views
+
+layout inflation
+	convertin xml appearace dfinition into View objects in code is called infaltion
+	very time consuming....
+		take an xml view, create its java object, set values for all attributes, and reursivley repeat for all its child nodes
+		Use the getSystemSErvice() or getLayoutInflater8) to create an oject to Layout INflater 
+		Only precompiled xml files by the aapt can be inflated during runtime for performance
+AppBarLayout
+	Is a lineraLayoutVertical
+	Permit mangaer caracteristics of Material desing
+CollapsingToolbarLayout
+	Is a wrapper for toolbar implement collpsable efect
+	you need son of the back element
+
+What is the difference between:
+
+px
+dip
+dp
+sp
+on Android?
+
+in
+Inches - based on the physical size of the screen.
+1 Inch = 2.54 centimeters
+mm
+Millimeters - based on the physical size of the screen.
+pt
+Points - 1/72 of an inch based on the physical size of the screen.
+dp or dip
+Density-independent Pixels - an abstract unit that is based on the physical density of the screen. These units are relative to a 160 dpi screen, so one dp is one pixel on a 160 dpi screen. The ratio of dp-to-pixel will change with the screen density, but not necessarily in direct proportion. Note: The compiler accepts both "dip" and "dp", though "dp" is more consistent with "sp".
+sp
+Scale-independent Pixels - this is like the dp unit, but it is also scaled by the user's font size preference. It is recommend you use this unit when specifying font sizes, so they will be adjusted for both the screen density and user's preference.
+From Understanding Density Independence In Android:
+
++----------------+----------------+---------------+-------------------------------+
+| Density Bucket | Screen Density | Physical Size | Pixel Size                    | 
++----------------+----------------+---------------+-------------------------------+
+| ldpi           | 120 dpi        | 0.5 x 0.5 in  | 0.5 in * 120 dpi = 60x60 px   | 
++----------------+----------------+---------------+-------------------------------+
+| mdpi           | 160 dpi        | 0.5 x 0.5 in  | 0.5 in * 160 dpi = 80x80 px   | 
++----------------+----------------+---------------+-------------------------------+
+| hdpi           | 240 dpi        | 0.5 x 0.5 in  | 0.5 in * 240 dpi = 120x120 px | 
++----------------+----------------+---------------+-------------------------------+
+| xhdpi          | 320 dpi        | 0.5 x 0.5 in  | 0.5 in * 320 dpi = 160x160 px | 
++----------------+----------------+---------------+-------------------------------+
+| xxhdpi         | 480 dpi        | 0.5 x 0.5 in  | 0.5 in * 480 dpi = 240x240 px | 
++----------------+----------------+---------------+-------------------------------+
+| xxxhdpi        | 640 dpi        | 0.5 x 0.5 in  | 0.5 in * 640 dpi = 320x320 px | 
++----------------+----------------+---------------+-------------------------------+
+
+
++---------+-------------+---------------+-------------+--------------------+
+| Unit    | Description | Units Per     | Density     | Same Physical Size | 
+|         |             | Physical Inch | Independent | On Every Screen    | 
++---------+-------------+---------------+-------------+--------------------+
+| px      | Pixels      | Varies        | No          | No                 | 
++---------+-------------+---------------+-------------+--------------------+
+| in      | Inches      | 1             | Yes         | Yes                | 
++---------+-------------+---------------+-------------+--------------------+
+| mm      | Millimeters | 25.4          | Yes         | Yes                | 
++---------+-------------+---------------+-------------+--------------------+
+| pt      | Points      | 72            | Yes         | Yes                | 
++---------+-------------+---------------+-------------+--------------------+
+| dp      | Density     | ~160          | Yes         | No                 | 
+|         | Independent |               |             |                    | 
+|         | Pixels      |               |             |                    | 
++---------+-------------+---------------+-------------+--------------------+
+| sp      | Scale       | ~160          | Yes         | No                 | 
+|         | Independent |               |             |                    | 
+|         | Pixels      |               |             |                    | 
++---------+-------------+-------
+
+
+scrollFlags
+	collpase efect to the sons
+
+
+Questions
+	What is infation?
+	different type of messure on android?
+	functino of adpater?
+View
+	ViewGroup
+		AdapterVire
+			Listview
+			Gridview
+			Spinerr
+			GAllary
+
+ArrayAdpater
+SimpleCursoAdapter
+BaseAdapter
+
+anchor 
+	who go colgado
+
+Depended comportamiento
+	
+Simple view behavior
+	dependsOn
+	depende type
+		y eje
+	dependTargetY
+		what is the limit for the y eje
+	targetX 
+		like a margin when the image finish the transition
+	targetWidth
+		what si the final whith of the image
+
+Transition Android
+	exitTransition() Activity 1
+	starTransiiton() Acivity 2
+		Fade
+		Slide Explode
+	transitionName
+		is ipmortant it's be complete word
+	you need do a validation for the transition
+		if(Build.VERISON.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
+			Explode explode = new Explode();
+			explode.setDuration();
+			activity.getWindow().setExitTransiiton(explode);
+			activity.startActivity(intent, AcitvityOptionsCompat.makeSceneTransitionanimation(activity, view, activity.getStraing(R.string.transitionanem_picture)).toBundle);
+	}
+	it's work on version mayor to llollipop
+	if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP);
+
+styles.xml(v21)
+
+version control
+	vcs
+		unable to the vcs 
+	vcs
+		impor tinto version control
+		select github
