@@ -500,3 +500,67 @@ sp mesure unit
 
 android:fillviewport : true
 	element use all space 
+
+Toolabar
+	manager on diferrent file is recommedede
+Strings of Java code
+	getResources().getString(R.string.toolbar_tittle_creteaccount)
+
+Intents
+	When you need join differenct activities on the app
+	two forms
+		link actvity 1 with activity 2
+	Implicits
+		unifiquete 
+
+Activity A
+	startActivity()
+		inteetn call Android system
+	onCreate
+activity B
+
+Intent intent = new INtent(this, Create AccouunActivity.class);
+startActivity(intent);
+	Botón back
+		Destroy the activity
+	Botón Up
+		jerarquy into the app
+		bookList
+			Book1
+			Book2
+add parent to son activity
+	parentActivityName".LoginAcrivity"
+
+CardView
+	Is a ViewGroup
+	Permit show information into the cards
+	can modifi the borders and add shadows if we want
+	varius views componend the card view
+
+	Tag CardView suport library
+	Layout into the CardView
+	ImageView and 2 Image Butotn items
+	Is neccesary to add the library to support gradle
+RecyclerView
+	More efficent that ListView
+Floating Actin Button
+	Design Library
+	is a tag
+
+CardView
+	separeted file work the card views
+	is a external library
+	cardCornerRadius
+		borders rendondeados
+	cardElevation
+Imageview
+	scaleType
+		centerCrop crop overflow 		
+icons8.com
+	icons webpage
+
+Selector
+	state_checked
+		false
+		true
+Fragments
