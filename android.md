@@ -781,3 +781,30 @@ version control
 	vcs
 		impor tinto version control
 		select github
+
+Study
+	linea of code that inflate a XML of layout and permit transfrom the elemnts of the UI in JavaObjets
+		.....set
+	is the form of confgurate our widger "toast":
+		Toast.makeText(getBaseContext(), "Felicidades tu nobmre es. " + nombre, Toast.LENGTH_LONG).show();
+	method of a fragment that draw a interface on user
+		..........
+	if have the layout R.layout.main and want indecate that my fragment to use in the graphic interface nee:
+		.........
+	What is collpagingToolbarLayout
+		Layout........
+	Are the elment that construct a ReciclerView.
+		RecyclerView
+		LayoutManager
+			List(LinearLaoyutManager)
+			Grid(GridLayoutManager)
+			Escalonable()
+	Adapter
+		Design patron
+		Class Adapter
+			class ViewHolder
+	Dataset
+		POJO
+	What aport adapter
+		...........		
+
